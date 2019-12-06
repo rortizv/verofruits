@@ -1222,6 +1222,10 @@ FOOTER SECTION
 	padding: 100px 0 46px;
 }
 
+#thelast{
+	background-color: #FF5C5D !important;
+	height: 0px;
+}
 
 .footer-widget h3 {
 	font-size: 14px;
