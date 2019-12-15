@@ -13,7 +13,7 @@ body {
 	font-size: 14px;
 	line-height: 24px;
 	background: #fff;
-	color: #895020;
+	color: #FF3035;
 	overflow-y: scroll;
 	-webkit-font-smoothing: antialiased !important;
 }
@@ -297,7 +297,7 @@ NAVIGATION
 
 .navbar-default .navbar-nav>li>a {
 	transition: 0.7s;
-	color: #895020;
+	color: #FF3035;
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 500;
@@ -322,7 +322,7 @@ NAVIGATION
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-	color: #FF3032;
+	color: #FFDC00;
 	background-color: transparent;
 	font-weight: 800;
 	transition: 0.7s;
@@ -330,7 +330,6 @@ NAVIGATION
 	-moz-transition: 0.7s;
 	-ms-transition: 0.7s;
 	-o-transition: 0.7s;
-	/* border-bottom: 1px dotted #FF3032; */
 	transform: scale(1.1);
 	-webkit-transform: scale(1.1);
 	-moz-transform: scale(1.1);
@@ -493,7 +492,7 @@ Working-process
 .process-circle span {
 	display: block;
 	font-weight: 700;
-	color: #895020;
+	color: #FF3035;
 	margin-top: 20px;
 }
 
@@ -546,7 +545,7 @@ Work Section
 }
 
 #filter li a {
-	color: #895020;
+	color: #FF3035;
 	display: block;
 	margin: 0 5px 0 0;
 	cursor: pointer;
@@ -558,7 +557,7 @@ Work Section
 	/*border-bottom: 1px dotted #707070;
 	*/
 	cursor: pointer;
-	color: #FF3032;
+	color: #FFDC00;
 	font-weight: 800;
 	transition: 0.5s;
 	transform: scale(1.1);
@@ -1065,6 +1064,10 @@ Blog Homepage Section
 
 .post-thumbnail img {
 	width: 100%;
+}
+
+#footer_font{
+	font-family: 'Poppins', sans-serif;
 }
 
 #blog .blog-post-wrapper .entry-footer {
