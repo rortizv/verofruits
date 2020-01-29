@@ -8,9 +8,9 @@ Author: Cloud Software Solution Ltd.
 
 
 body {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 24px;
 	background: #fff;
 	color: #FF3035;
@@ -253,7 +253,7 @@ NAVIGATION
 	}
 }
 
-#dif_hover:hover{
+#dif_hover:hover {
 	transform: scale(1.1);
 	transition: 0.4s;
 	-webkit-transform: scale(1.1);
@@ -266,7 +266,7 @@ NAVIGATION
 	-o-transition: 0.4s;
 }
 
-#dif_hover{
+#dif_hover {
 	transition: 0.4s;
 	-webkit-transition: 0.4s;
 	-moz-transition: 0.4s;
@@ -286,7 +286,8 @@ NAVIGATION
 	height: 170px;
 	border-radius: 0;
 	margin: 0;
-	background: #C4E6A4;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(196, 230, 164, 1) 0%, rgba(255, 255, 255, 1) 100%);
 	box-shadow: 0 0 0 1px #ededed;
 }
 
@@ -395,7 +396,7 @@ NAVIGATION
 h1.logo {
 	margin: 0;
 	padding: 0;
-	
+
 }
 
 
@@ -759,7 +760,7 @@ figure.css-hover-effect:hover .figure-link i {
 	-ms-background-size: cover;
 	background-size: 100%;
 	background-attachment: fixed;
-	position: relative;	
+	position: relative;
 }
 
 .greyback {
@@ -1069,7 +1070,7 @@ Blog Homepage Section
 	width: 100%;
 }
 
-#footer_font{
+#footer_font {
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -1249,7 +1250,7 @@ FOOTER SECTION
 	padding: 100px 0 46px;
 }
 
-#thelast{
+#thelast {
 	background-color: #FF5C5D !important;
 	height: 0px;
 }
@@ -2239,11 +2240,11 @@ BACK TO TOP
 	}
 }
 
-@media (max-width : 430px){
-    .parallax{
-        background-image: none;
-        }
-    }
+@media (max-width : 430px) {
+	.parallax {
+		background-image: none;
+	}
+}
 
 
 
@@ -2304,4 +2305,22 @@ BACK TO TOP
 	100% {
 		background-position: 0% 56%
 	}
+}
+
+#minav {
+	margin-top: 25px;
+}
+
+#pedidos {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	align-content: flex-end;
+	font-size: 11px;
+	margin-top: -20px;
+}
+
+#pedidos a {
+	margin: -5px 0px -5px 0px;
 }
