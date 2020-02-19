@@ -283,7 +283,7 @@ NAVIGATION
 }
 
 .navbar {
-	height: 170px;
+	height: 167px;
 	border-radius: 0;
 	margin: 0;
 	background: rgb(2, 0, 36);
@@ -1597,6 +1597,10 @@ Blog Page
 	margin-left: 0;
 	margin-right: 30px;
 	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
 }
 
 .pagination>li:last-child>a,
@@ -2348,12 +2352,16 @@ BACK TO TOP
 	}
 
 	.logo img {
-		margin: 55px 0px 0px 145px;
+		margin: 11px 0px 0px 160px;
 		transform: scale(2.5);
 		-webkit-transform: scale(2.5);
 		-moz-transform: scale(2.5);
 		-ms-transform: scale(2.5);
 		-o-transform: scale(2.5);
+	}
+
+	.navbar{
+		height: 67px;
 	}
 
 	#somos_prov,
@@ -2374,7 +2382,7 @@ BACK TO TOP
 	}
 
 	.logo img {
-		margin: 60px 0px 0px 125px;
+		margin: 11px 0px 0px 139px;
 		transform: scale(2.3);
 		-webkit-transform: scale(2.3);
 		-moz-transform: scale(2.3);
@@ -2395,12 +2403,12 @@ BACK TO TOP
 
 @media(max-width: 320px) {
 	.logo img {
-		margin: 65px 0px 0px 100px;
-		transform: scale(2.3);
+		margin: 8px 0px 0px 115px;
+		/* transform: scale(2.3); 
 		-webkit-transform: scale(2.3);
 		-moz-transform: scale(2.3);
 		-ms-transform: scale(2.3);
-		-o-transform: scale(2.3);
+		-o-transform: scale(2.3);*/
 	}
 
 	.sizeMed {
